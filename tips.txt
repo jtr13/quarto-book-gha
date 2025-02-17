@@ -1,6 +1,0 @@
-Tips and tricks
-
-.footnotes {
-  font-size: .9rem;
-}
-
