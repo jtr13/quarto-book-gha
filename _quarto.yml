@@ -2,24 +2,18 @@ project:
   type: book
 
 book:
-  title: "A Solid Start to ggplot2"
+  title: "The ggplot2 extension ecosystem"
   author: "Joyce Robbins"
   date: today
-  site-url: https://jtr13.github.io/graphs
-  repo-url: https://github.com/jtr13/graphs
+  site-url: https://jtr13.github.io/ggwork
+  repo-url: https://github.com/jtr13/ggwork
   repo-branch: main
   repo-actions: [source, edit, issue]
   chapters:
     - index.qmd
-    - intro.qmd
-    - grammar.qmd
+    - gettingdata.qmd
+    - stars.qmd
     - layers.qmd
-    - geoms.qmd
-    - acknowledgments.qmd
-    - references.qmd
-    - appendix.qmd
-
-bibliography: references.bib
 
 format:
   html:
