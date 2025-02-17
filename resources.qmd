@@ -1,0 +1,10 @@
+# ggplot2 resources
+
+## Themes
+
+How to create BBC style graphics https://bbc.github.io/rcookbook/
+
+Todd Schneider's Simpsons Theme https://github.com/toddwschneider/flim-springfield/blob/f9b7f123aa8962b56b624fe4032cd4af3f68cc14/analysis/helpers.R
+
+https://towardsdatascience.com/themes-to-spice-up-visualizations-with-ggplot2-3e275038dafa
+

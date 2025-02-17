@@ -1,0 +1,15 @@
+# Six geoms
+
+## `geom_histogram()`
+
+
+## `geom_density()`
+
+```{r}
+library(ggplot2)
+ggplot(faithful, aes(x = eruptions, y = after_stat(density))) +
+  geom_histogram(breaks = seq(1.5, 5.5, .25), color = "blue",
+                 fill = "cornflowerblue", alpha = .5) +
+  geom_density(linewidth = 1.5, color = "red")
+```
+

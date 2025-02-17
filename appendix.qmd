@@ -1,0 +1,18 @@
+# Required mappings
+
+```{r}
+#| echo: false
+library(ggplot2)
+x <- lsf.str("package:ggplot2")
+geominfo <- data.frame(GEOM = x[stringr::str_detect(x, "^geom")])
+get_req <- function(geom) {
+  t <- evaluate::evaluate(paste0("ggplot(mtcars) + ",
+                                 geom, "()"))
+  message <- t[[length(t)]]$parent$message
+  missing <- ifelse(!is.null(message),
+                    stringr::str_remove_all(message, "^.*aesthetics: |^.*requires an | aesthetic.$"), NA)
+}
+geominfo$`REQUIRED MAPPINGS` <- sapply(geominfo$GEOM, get_req)
+knitr::kable(geominfo)
+```
+
