@@ -4,7 +4,7 @@
 
 This repo contains a [Quarto book](https://quarto.org/docs/books/) template for creating a Quarto book in R that renders automatically when `.qmd` files are pushed to GitHub.
 
-If this is your first Quarto book, I recommend using the [Quarto book template](https://github.com/jtr13/quarto-edav-template) without automatically rendering first.
+If this is your first Quarto book, I recommend using the [Quarto book template](https://github.com/jtr13/quarto-edav-template) without automatically rendering instead.
 
 ## Follow these instructions carefully
 
